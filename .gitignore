@@ -21,3 +21,7 @@ secrets.json
 # macOS / Parallels
 .DS_Store
 ._*
+
+# Python virtual environment
+.venv/
+__pycache__/
