@@ -112,6 +112,14 @@ Same pattern for `/api/inspections` and `/api/owner-responses`. Extra read endpo
 
 Main endpoints: `/api/establishments`, `/api/inspections`, `/api/owner-responses` (GetAll, GetById, POST, PUT, PATCH, DELETE each) and `/api/establishments/{id}/badge`.
 
+### Run in Docker (Mac, builds a linux/arm64 image)
+
+```bash
+docker build --platform linux/arm64 -t safebite-api .
+docker run --rm -p 8080:8080 -e 'ConnectionStrings__SafeBiteDb=Server=host.docker.internal,1433;Database=SafeBiteDb;User Id=sa;Password=<your-password>;TrustServerCertificate=True' safebite-api
+```
+Then open `http://localhost:8080/swagger`. Don't commit or share the command with your real password.
+
 ## Repo layout (planned)
 
 ```
@@ -137,7 +145,7 @@ SafeBiteTO/
 7. Three controllers with all six operations, JSON Patch *(done)*
 8. OpenAPI and Swagger, test with Endpoints Explorer *(done: checkpoint, team can clone and run)*
 9. Switch to RDS SQL Server
-10. Dockerize, push to ECR
+10. Dockerize *(done)*, push to ECR
 11. ECS Fargate: task definition, Run task, save the JSON
 12. Apigee setup and portal
 13. MVC client calling all 6 methods per controller
