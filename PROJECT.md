@@ -145,13 +145,11 @@ SafeBiteTO/
 
 Build one controller end to end first, then repeat for the other two.
 
-## Still to decide
+## Other details
 
-- [ ] Who owns which part
-- [ ] Confirm 100 rows with the professor (we planned for 100)
+- Ended up going w 100 establishments as opposed to the 20 required in the rubric because she mentioned that as a requirement in class.
 - [ ] Whose AWS and Apigee accounts we use (screenshots must show the account)
 - [ ] Swashbuckle.AspNetCore or .NET's built-in OpenAPI support
-- [ ] Internal deadlines and demo roles
 
 ## Rules for the repo
 
