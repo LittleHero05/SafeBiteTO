@@ -98,6 +98,20 @@ Same pattern for `/api/inspections` and `/api/owner-responses`. Extra read endpo
 - **Public IP turned on**
 - Copy the task definition JSON and save it as `docs/task-definition.json`. It's part of the submission.
 
+## How to run the API locally
+
+1. Clone the repo and open `SafeBiteTO.slnx` in Visual Studio.
+2. Start SQL Server (for example the Docker container from Lab 3).
+3. Right-click **SafeBite.Api → Manage User Secrets** and add your own connection string (never commit it):
+   ```json
+   { "ConnectionStrings": { "SafeBiteDb": "Server=<your-server>,1433;Database=SafeBiteDb;User Id=sa;Password=<your-password>;TrustServerCertificate=True" } }
+   ```
+4. Package Manager Console (default project SafeBite.Api): `Update-Database`
+5. Run the API. On first start, `DbSeeder` fills the empty tables from `data/seed/` (100 establishments, 447 inspections, 100 owner responses).
+6. Open `https://localhost:<port>/swagger` to test every endpoint. OpenAPI document: `/openapi/safebite.json`.
+
+Main endpoints: `/api/establishments`, `/api/inspections`, `/api/owner-responses` (GetAll, GetById, POST, PUT, PATCH, DELETE each) and `/api/establishments/{id}/badge`.
+
 ## Repo layout (planned)
 
 ```
@@ -116,12 +130,12 @@ SafeBiteTO/
 
 1. Setup: IAM, AWS CLI, repo *(done by Isabella P.)*
 2. Data: download DineSafe, pick about 100 establishments, clean into seed files *(done)*
-3. Create the Web API project and install packages
-4. Models, DbContext, first migration on local SQL Server
-5. Seed real data
-6. Repositories, DTOs, AutoMapper profiles
-7. Three controllers with all six operations, JSON Patch
-8. OpenAPI and Swagger, test with Endpoints Explorer *(checkpoint: team can clone and run)*
+3. Create the Web API project and install packages *(done)*
+4. Models, DbContext, first migration on local SQL Server *(done)*
+5. Seed real data *(done)*
+6. Repositories, DTOs, AutoMapper profiles *(done)*
+7. Three controllers with all six operations, JSON Patch *(done)*
+8. OpenAPI and Swagger, test with Endpoints Explorer *(done: checkpoint, team can clone and run)*
 9. Switch to RDS SQL Server
 10. Dockerize, push to ECR
 11. ECS Fargate: task definition, Run task, save the JSON
