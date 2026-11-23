@@ -1,0 +1,448 @@
+InspectionId,EstablishmentId,InspectionDate,Status,InfractionCount,CrucialCount,SignificantCount,MinorCount,InfractionSummary,Observation
+1,1,2024-10-10,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+2,2,2024-05-02,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+3,3,2024-05-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+4,3,2025-12-11,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+5,4,2024-05-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+6,4,2025-12-11,Conditional Pass,2,0,1,1,Fail to provide handwashing stations with adequate supplies (hot and cold water),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+7,4,2025-12-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+8,4,2026-05-20,Pass,3,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+9,5,2025-06-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+10,5,2026-09-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+11,6,2024-04-26,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+12,6,2025-12-08,Conditional Pass,7,1,3,2,Maintain potentially hazardous foods at internal temperature between 4°c and 60°c,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+13,6,2026-01-02,Conditional Pass,2,0,1,1,Fail to provide handwashing stations with adequate supplies (hot and cold water),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+14,6,2026-01-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+15,6,2026-08-14,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+16,6,2026-11-17,Pass,1,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+17,7,2026-05-08,Pass,1,0,0,1,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+18,7,2026-09-25,Pass,1,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+19,8,2024-04-24,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+20,8,2025-07-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+21,8,2026-08-13,Pass,1,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+22,9,2024-01-25,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+23,9,2024-08-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+24,9,2025-10-31,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+25,9,2026-02-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+26,10,2023-11-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+27,10,2024-11-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+28,10,2025-12-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+29,10,2026-09-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+30,11,2024-10-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+31,11,2026-05-20,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+32,12,2024-04-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+33,12,2025-12-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+34,12,2026-03-11,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+35,13,2024-12-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+36,13,2025-09-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+37,13,2025-11-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+38,13,2026-08-19,Conditional Pass,1,0,1,0,Fail to protect against breeding of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+39,13,2026-08-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+40,14,2024-07-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+41,14,2025-11-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+42,14,2026-11-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+43,15,2026-06-26,Pass,2,0,1,1,Sanitize utensils using agent for which test reagent not readily available,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+44,16,2025-02-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+45,16,2026-02-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+46,17,2025-12-08,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+47,17,2026-08-27,Conditional Pass,2,0,1,0,Use food equipment not of sound and tight construction,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+48,17,2026-08-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+49,18,2024-03-11,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+50,18,2024-04-25,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+51,18,2024-08-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+52,18,2024-12-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+53,18,2025-03-21,Pass,1,0,1,0,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+54,18,2025-07-21,Pass,3,0,1,2,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+55,18,2025-12-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+56,18,2026-01-06,Pass,3,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+57,19,2024-04-26,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+58,19,2024-06-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+59,19,2024-12-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+60,19,2025-04-24,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+61,19,2025-07-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+62,19,2025-12-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+63,19,2026-05-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+64,19,2026-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+65,20,2024-05-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+66,20,2025-12-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+67,20,2026-10-09,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+68,21,2023-11-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+69,21,2024-03-13,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+70,21,2024-08-06,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+71,21,2024-10-18,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+72,21,2025-04-15,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+73,21,2025-06-24,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+74,21,2025-11-03,Pass,2,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+75,21,2026-02-25,Conditional Pass,1,0,1,0,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+76,21,2026-02-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+77,21,2026-06-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+78,21,2026-07-17,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+79,21,2026-11-11,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+80,21,2026-11-13,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+81,22,2024-01-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+82,22,2025-12-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+83,22,2026-03-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+84,23,2024-03-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+85,23,2025-05-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+86,23,2026-06-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+87,24,2024-05-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+88,24,2025-11-03,Pass,1,0,1,0,Sanitize utensils in quaternary ammonium compound solution of less than 200 p.p.m.,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+89,24,2026-09-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+90,25,2024-12-11,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+91,25,2025-04-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+92,25,2026-03-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+93,25,2026-08-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+94,26,2026-02-26,Pass,1,0,0,0,No license available at time of inspection. a referral has been made to municipal licensing and standards.,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+95,26,2026-05-26,Pass,1,0,0,0,No license available at time of inspection. a referral has been made to municipal licensing and standards.,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+96,26,2026-09-25,Pass,1,0,1,0,Use utensils not in good repair,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+97,27,2026-05-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+98,28,2024-11-05,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+99,28,2025-04-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+100,29,2024-02-22,Pass,1,0,0,1,Food premise not maintained to permit cleaning of ceilings,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+101,29,2025-10-29,Pass,2,0,0,2,Food premise not maintained to keep food-handling room free from materials not regularly used,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+102,29,2026-05-28,Pass,2,0,0,2,Food premise not maintained with clean ceiling in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+103,30,2024-12-11,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+104,30,2025-12-05,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+105,30,2026-02-19,Conditional Pass,4,1,1,1,Store potentially hazardous foods at internal temperature between 4°c and 60°c,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+106,30,2026-02-26,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+107,30,2026-06-16,Pass,1,0,1,0,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+108,30,2026-06-24,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+109,30,2026-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+110,31,2024-05-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+111,31,2025-11-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+112,31,2026-02-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+113,32,2026-01-23,Pass,1,0,0,0,No license available at time of inspection. a referral has been made to municipal licensing and standards.,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+114,32,2026-05-28,Pass,3,0,0,3,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+115,32,2026-11-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+116,33,2025-07-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+117,33,2026-06-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+118,34,2024-03-12,Conditional Pass,8,0,5,3,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+119,34,2024-03-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+120,34,2024-08-20,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+121,34,2024-12-17,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+122,34,2025-04-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+123,34,2025-07-22,Pass,2,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+124,34,2025-10-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+125,34,2026-04-24,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+126,34,2026-08-28,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+127,35,2025-02-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+128,35,2025-06-19,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+129,35,2025-10-30,Pass,2,0,0,2,Food premise not maintained with clean walls in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+130,35,2026-02-03,Conditional Pass,4,1,3,0,Food premise maintained in manner permitting adverse effect on food,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+131,35,2026-02-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+132,36,2024-10-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+133,36,2025-04-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+134,36,2025-11-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+135,36,2026-06-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+136,37,2026-08-17,Conditional Pass,4,1,2,1,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+137,37,2026-08-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+138,38,2024-01-29,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+139,38,2025-01-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+140,38,2025-05-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+141,38,2025-09-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+142,38,2026-01-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+143,38,2026-05-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+144,38,2026-09-24,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+145,39,2024-03-12,Pass,2,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+146,39,2025-04-04,Pass,3,0,0,3,Operate food premise - equipment not arranged to permit maintenance in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+147,39,2026-06-18,Conditional Pass,2,0,1,1,Operate food premise - fail to keep sanitary facility sanitary,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+148,39,2026-06-22,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+149,40,2025-12-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+150,40,2026-04-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+151,41,2024-02-21,Conditional Pass,4,0,2,2,Fail to retain records of pest control measures taken for one year,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+152,41,2024-02-22,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+153,41,2024-05-23,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+154,41,2024-10-08,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+155,41,2025-01-16,Pass,2,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+156,41,2025-07-02,Pass,2,0,1,1,Operate food premise - fail to equip sanitary facility with soap or detergent,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+157,41,2025-11-24,Pass,2,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+158,41,2026-02-19,Pass,2,0,1,1,Operate food premise - fail to equip sanitary facility with soap or detergent,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+159,41,2026-08-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+160,42,2024-02-21,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+161,42,2024-03-13,Conditional Pass,4,0,2,2,Fail to protect against breeding of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+162,42,2024-03-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+163,42,2024-05-23,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+164,42,2024-10-04,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+165,42,2025-04-23,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+166,42,2025-07-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+167,42,2025-11-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+168,42,2026-02-04,Pass,2,0,0,2,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+169,42,2026-10-07,Pass,1,0,0,1,Food premise not maintained with clean walls in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+170,43,2024-02-22,Pass,6,0,3,3,Operate food premise - fail to equip sanitary facility with soap or detergent,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+171,43,2024-05-23,Pass,2,0,1,1,Fail to ensure facility surface cleaned as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+172,43,2024-10-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+173,43,2025-04-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+174,43,2025-07-25,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+175,43,2025-12-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+176,43,2026-02-23,Pass,3,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+177,43,2026-05-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+178,43,2026-10-07,Pass,1,0,0,1,Food premise not maintained with clean walls in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+179,44,2024-07-09,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+180,44,2025-12-07,Pass,2,0,1,1,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+181,44,2026-05-27,Pass,2,0,0,1,Food premise not maintained with walls in good repair in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+182,45,2025-12-07,Pass,2,0,0,2,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+183,45,2026-02-02,Conditional Pass,4,1,2,0,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+184,45,2026-02-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+185,45,2026-06-15,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+186,45,2026-10-22,Conditional Pass,8,1,5,2,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+187,45,2026-10-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+188,46,2024-10-03,Pass,2,0,1,1,Operate food premise - mechanical equipment not maintained to provide sufficient chemical solution rinse,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+189,46,2025-01-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+190,46,2025-05-17,Pass,1,0,0,0,Fail to ensure completion of food handling training by food handler or supervisor,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+191,46,2025-09-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+192,46,2026-01-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+193,47,2024-08-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+194,47,2025-06-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+195,47,2026-01-08,Pass,1,0,0,0,No license available at time of inspection. a referral has been made to municipal licensing and standards.,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+196,48,2024-10-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+197,48,2025-04-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+198,48,2026-10-30,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+199,49,2025-01-10,Pass,2,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+200,49,2025-03-20,Conditional Pass,4,2,1,1,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+201,49,2025-03-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+202,49,2025-12-29,Pass,3,0,0,3,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+203,49,2026-04-29,Pass,2,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+204,49,2026-08-14,Conditional Pass,5,1,2,2,Fail to process food in manner safe to eat,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+205,49,2026-09-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+206,50,2024-10-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+207,50,2025-01-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+208,50,2025-07-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+209,50,2026-02-09,Pass,2,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+210,50,2026-10-01,Pass,3,0,1,1,Use equipment not suitable for intended purpose,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+211,51,2023-11-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+212,51,2024-04-26,Pass,3,0,2,1,Thermometer in refrigeration equipment not easily readable,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+213,51,2024-08-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+214,51,2024-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+215,51,2025-03-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+216,51,2026-09-23,Conditional Pass,3,0,1,2,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+217,51,2026-10-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+218,52,2026-10-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+219,53,2025-09-30,Conditional Pass,5,0,2,3,Fail to maintain handwashing stations (liquid soap and paper towels),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+220,53,2025-10-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+221,54,2024-11-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+222,54,2025-04-17,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+223,54,2026-07-10,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+224,55,2024-11-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+225,55,2025-10-07,Pass,1,0,1,0,Use food equipment not of readily cleanable form,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+226,55,2026-06-24,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+227,56,2025-04-03,Pass,1,0,1,0,Fail to ensure facility surface cleaned as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+228,56,2026-01-27,Pass,1,0,0,1,Food premise not maintained with walls in good repair in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+229,57,2024-11-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+230,57,2025-10-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+231,57,2026-08-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+232,58,2024-11-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+233,58,2025-10-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+234,58,2026-08-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+235,59,2024-07-08,Pass,2,0,0,2,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+236,59,2025-06-20,Pass,2,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+237,59,2026-02-09,Pass,2,0,1,1,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+238,59,2026-08-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+239,59,2026-11-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+240,60,2024-07-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+241,60,2026-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+242,61,2026-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+243,62,2026-08-20,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+244,62,2026-11-03,Conditional Pass,3,0,2,1,Fail to provide adequate number of handwashing stations,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+245,62,2026-11-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+246,63,2024-11-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+247,63,2025-05-14,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+248,63,2026-01-22,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+249,64,2024-03-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+250,64,2024-08-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+251,64,2024-11-25,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+252,64,2025-01-06,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+253,64,2025-05-14,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+254,64,2025-10-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+255,64,2026-01-22,Pass,2,0,0,1,Food premise not maintained with clean walls in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+256,64,2026-06-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+257,64,2026-07-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+258,65,2024-03-14,Pass,3,0,1,1,Use utensils not of readily cleanable form,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+259,65,2024-10-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+260,65,2025-06-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+261,65,2026-07-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+262,66,2024-03-14,Pass,2,0,0,2,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+263,66,2024-10-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+264,66,2025-06-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+265,66,2025-08-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+266,66,2026-06-25,Pass,4,0,0,3,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+267,67,2024-02-12,Pass,3,0,1,2,Use utensils not of sound and tight construction,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+268,67,2024-06-03,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+269,67,2024-10-21,Pass,3,0,0,3,Food premise not maintained with clean walls in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+270,67,2025-03-04,Pass,3,0,0,3,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+271,67,2025-06-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+272,67,2025-10-20,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+273,67,2026-04-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+274,67,2026-07-13,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+275,67,2026-09-23,Conditional Pass,3,0,1,2,Fail to ensure equipment surface cleaned as necessary,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+276,67,2026-09-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+277,68,2024-03-14,Conditional Pass,5,1,2,2,Refrigerate potentially hazardous foods at internal temperature above 4 c,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+278,68,2024-03-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+279,68,2024-06-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+280,68,2024-10-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+281,68,2025-02-24,Pass,1,0,1,0,Operate food premise - mechanical equipment not maintained to provide sufficient chemical solution rinse,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+282,68,2025-07-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+283,68,2025-11-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+284,68,2026-02-06,Pass,1,0,0,1,Food premise not maintained with food handling room in sanitary condition,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+285,68,2026-07-06,Conditional Pass,4,0,3,1,Operate food premise - mechanical equipment not maintained to provide sufficient chemical solution rinse,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+286,68,2026-07-10,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+287,68,2026-09-28,Pass,4,0,1,3,Sanitize utensils using agent for which test reagent not readily available,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+288,69,2024-02-12,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+289,69,2024-07-15,Conditional Pass,2,1,1,0,Fail to ensure food handler in food premise washes hands as necessary to prevent contamination of food areas,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+290,69,2024-07-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+291,69,2025-04-15,Conditional Pass,4,1,2,1,Fail to ensure food handler in food premise washes hands as necessary to prevent contamination of food,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+292,69,2025-04-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+293,69,2025-05-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+294,69,2025-10-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+295,69,2026-03-09,Pass,4,0,1,3,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+296,69,2026-07-13,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+297,69,2026-10-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+298,69,2026-11-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+299,70,2024-06-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+300,70,2024-11-01,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+301,70,2025-02-20,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+302,70,2025-06-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+303,70,2025-10-09,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+304,70,2026-04-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+305,70,2026-07-10,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+306,70,2026-10-14,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+307,71,2024-11-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+308,71,2025-10-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+309,71,2026-04-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+310,72,2023-11-27,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+311,72,2024-08-30,Pass,1,0,0,1,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+312,72,2025-06-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+313,72,2026-02-04,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+314,73,2023-11-29,Conditional Pass,4,2,1,1,Maintain potentially hazardous foods at internal temperature between 4 c and 60 c,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+315,73,2023-12-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+316,73,2024-03-12,Pass,3,0,1,0,Fail to provide thermometer in refrigeration equipment,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+317,73,2024-05-10,Pass,3,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+318,73,2024-08-30,Pass,2,0,1,1,Thermometer in refrigeration equipment not easily readable,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+319,73,2024-12-02,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+320,73,2025-03-25,Conditional Pass,2,2,0,0,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+321,73,2025-03-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+322,73,2025-06-04,Conditional Pass,6,2,3,1,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+323,73,2025-06-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+324,73,2025-06-20,Conditional Pass,5,2,1,2,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+325,73,2025-06-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+326,73,2025-12-08,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+327,73,2026-03-18,Pass,2,0,1,1,Use equipment not suitable for intended purpose,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+328,73,2026-06-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+329,74,2026-09-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+330,75,2024-04-24,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+331,75,2024-08-14,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+332,75,2025-09-26,Closed,3,1,1,1,Food premise maintained in manner permitting health hazard (insects),One or more crucial infractions were observed under the Food Premises Regulation that present an immediate health hazard that cannot be corrected during an inspection.
+333,75,2025-10-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+334,76,2024-04-24,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+335,76,2024-08-08,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+336,76,2024-10-28,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+337,76,2025-01-22,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+338,76,2025-09-26,Closed,5,2,2,1,Fail to protect food from contamination or adulteration,One or more crucial infractions were observed under the Food Premises Regulation that present an immediate health hazard that cannot be corrected during an inspection.
+339,76,2025-10-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+340,76,2026-09-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+341,77,2024-06-25,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+342,77,2024-09-10,Pass,2,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+343,77,2025-01-07,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+344,78,2025-07-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+345,78,2025-10-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+346,78,2026-02-27,Pass,1,0,0,1,Food premise not maintained with floors in good repair in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+347,78,2026-08-27,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+348,79,2024-08-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+349,79,2025-02-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+350,79,2026-01-02,Pass,2,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+351,79,2026-01-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+352,79,2026-02-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+353,79,2026-10-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+354,80,2024-08-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+355,80,2025-03-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+356,80,2026-03-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+357,81,2024-08-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+358,81,2025-02-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+359,81,2026-03-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+360,82,2024-05-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+361,82,2025-02-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+362,82,2026-05-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+363,83,2025-01-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+364,83,2026-02-17,Pass,1,0,0,0,Fail to ensure presence of food handler or supervisor during all hours of operation,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+365,84,2024-01-23,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+366,84,2025-02-21,Pass,1,0,0,0,Fail to ensure completion of food handling training by food handler or supervisor,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+367,84,2026-01-05,Pass,2,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+368,85,2024-08-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+369,85,2025-09-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+370,85,2026-08-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+371,86,2024-02-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+372,86,2025-02-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+373,86,2025-07-11,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+374,86,2026-01-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+375,87,2024-02-06,Conditional Pass,7,3,2,0,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+376,87,2024-02-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+377,87,2024-08-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+378,87,2025-09-10,Conditional Pass,2,0,1,1,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+379,87,2025-09-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+380,87,2026-03-12,Conditional Pass,5,0,4,1,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+381,87,2026-03-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+382,87,2026-06-17,Conditional Pass,4,0,3,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+383,87,2026-06-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+384,87,2026-09-17,Pass,2,0,0,1,Food premise not maintained to keep food-handling room free from materials not regularly used,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+385,88,2025-05-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+386,88,2025-10-23,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+387,88,2026-06-26,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+388,89,2024-12-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+389,89,2025-07-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+390,89,2026-09-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+391,90,2024-12-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+392,90,2025-07-18,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+393,91,2024-01-31,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+394,91,2024-05-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+395,91,2024-09-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+396,91,2025-01-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+397,91,2025-05-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+398,91,2025-06-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+399,91,2025-09-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+400,91,2026-01-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+401,91,2026-05-08,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+402,91,2026-09-22,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+403,92,2024-08-13,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+404,92,2025-03-03,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+405,92,2026-03-05,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+406,92,2026-05-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+407,93,2024-12-06,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+408,93,2025-09-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+409,93,2026-01-02,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+410,94,2025-12-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+411,95,2024-04-02,Pass,1,0,0,0,Fail to produce most recent food safety inspection report(s),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+412,95,2024-06-12,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+413,96,2024-01-18,Pass,2,0,1,1,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+414,96,2024-11-05,Pass,1,0,0,1,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+415,96,2025-07-09,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+416,96,2026-07-13,Conditional Pass,2,0,1,1,Fail to protect against harbouring of pests,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+417,96,2026-07-15,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+418,97,2026-01-07,Pass,2,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+419,97,2026-06-25,Conditional Pass,2,0,2,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+420,97,2026-06-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+421,98,2024-03-21,Conditional Pass,9,0,3,5,Fail to maintain handwashing stations (liquid soap and paper towels),One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+422,98,2024-03-27,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+423,98,2024-06-12,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+424,98,2024-10-29,Conditional Pass,4,1,1,2,Fail to ensure storage racks designed to protect against contamination,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+425,98,2024-11-01,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+426,98,2025-04-29,Pass,2,0,0,2,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+427,98,2025-08-14,Pass,2,0,0,2,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+428,98,2025-12-16,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+429,98,2026-03-12,Conditional Pass,2,0,1,1,Fail to ensure equipment surface cleaned as necessary,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+430,98,2026-03-17,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+431,98,2026-06-23,Conditional Pass,5,2,3,0,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+432,98,2026-07-21,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+433,99,2025-09-29,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+434,99,2026-01-02,Pass,1,0,1,0,Fail to maintain handwashing stations (liquid soap and paper towels),One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+435,99,2026-02-19,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+436,99,2026-08-27,Pass,1,0,0,1,Operate food premise - equipment not constructed to permit cleaning,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+437,100,2024-02-21,Pass,3,0,0,3,Fail to protect against entry of pests,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+438,100,2024-08-07,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+439,100,2024-11-04,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+440,100,2025-04-02,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+441,100,2025-06-16,Pass,2,0,0,2,Fail to ensure equipment surface sanitized as necessary,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+442,100,2025-09-29,Conditional Pass,2,1,1,0,Fail to protect food from contamination or adulteration,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+443,100,2025-09-30,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.
+444,100,2026-02-10,Pass,1,0,0,1,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+445,100,2026-05-07,Pass,3,0,0,3,Food premise not maintained with clean floors in food-handling room,One or more minor infractions were observed under the Food Premises Regulation during an inspection.
+446,100,2026-05-22,Conditional Pass,2,0,2,0,Use dirty cloth for cleaning food contact surface,One or more significant infractions were observed under the Food Premises Regulation during an inspection.
+447,100,2026-05-25,Pass,0,0,0,0,No infractions found,No infractions were observed under the Food Premises Regulation during an inspection.

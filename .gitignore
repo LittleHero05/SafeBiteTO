@@ -1,0 +1,23 @@
+# Raw DineSafe download (large; re-download from open.toronto.ca)
+data/raw/
+
+# Visual Studio / .NET build output
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.rsuser
+[Dd]ebug/
+[Rr]elease/
+*.log
+TestResults/
+
+# Secrets and local settings
+appsettings.Development.json
+*.env
+secrets.json
+
+# macOS / Parallels
+.DS_Store
+._*
