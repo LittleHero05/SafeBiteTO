@@ -1,0 +1,8 @@
+@model EstablishmentDto
+@{ ViewData["Title"] = "Delete establishment"; }
+<h1 class="h3">Delete @Model.Name? <small class="text-muted fs-6">DELETE /api/establishments/@Model.EstablishmentId</small></h1>
+<div class="alert alert-warning">This also deletes every inspection and owner response for this establishment (cascade delete in the API).</div>
+<form asp-action="Delete" asp-route-id="@Model.EstablishmentId" method="post">
+    <button type="submit" class="btn btn-danger">Send DELETE</button>
+    <a asp-action="Details" asp-route-id="@Model.EstablishmentId" class="btn btn-link">Cancel</a>
+</form>

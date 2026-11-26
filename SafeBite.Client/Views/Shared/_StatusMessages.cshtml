@@ -1,0 +1,10 @@
+@* Shows the result of the last API call (set with TempData or ViewData in the controllers) *@
+@if (TempData["Message"] is string message)
+{
+    <div class="alert alert-success alert-dismissible fade show">@message
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
+}
+@if ((TempData["Error"] ?? ViewData["Error"]) is string error)
+{
+    <div class="alert alert-danger"><strong>Could not reach the SafeBite API.</strong> @error</div>
+}

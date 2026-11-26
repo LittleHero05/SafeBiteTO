@@ -1,0 +1,20 @@
+@model EstablishmentCreateDto
+@{ ViewData["Title"] = "New establishment"; }
+<h1 class="h3">New establishment <small class="text-muted fs-6">POST /api/establishments</small></h1>
+<form asp-action="Create" method="post" class="col-md-6">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3"><label asp-for="DineSafeId" class="form-label"></label><input asp-for="DineSafeId" class="form-control" /><span asp-validation-for="DineSafeId" class="text-danger"></span></div>
+    <div class="mb-3"><label asp-for="Name" class="form-label"></label><input asp-for="Name" class="form-control" /><span asp-validation-for="Name" class="text-danger"></span></div>
+    <div class="mb-3"><label asp-for="Street" class="form-label"></label><input asp-for="Street" class="form-control" /><span asp-validation-for="Street" class="text-danger"></span></div>
+    <div class="row">
+        <div class="col mb-3"><label asp-for="PostalCode" class="form-label"></label><input asp-for="PostalCode" class="form-control" /><span asp-validation-for="PostalCode" class="text-danger"></span></div>
+        <div class="col mb-3"><label asp-for="Phone" class="form-label"></label><input asp-for="Phone" class="form-control" /><span asp-validation-for="Phone" class="text-danger"></span></div>
+    </div>
+    <div class="row">
+        <div class="col mb-3"><label asp-for="Latitude" class="form-label"></label><input asp-for="Latitude" class="form-control" /><span asp-validation-for="Latitude" class="text-danger"></span></div>
+        <div class="col mb-3"><label asp-for="Longitude" class="form-label"></label><input asp-for="Longitude" class="form-control" /><span asp-validation-for="Longitude" class="text-danger"></span></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Send POST</button>
+    <a asp-action="Index" class="btn btn-link">Cancel</a>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

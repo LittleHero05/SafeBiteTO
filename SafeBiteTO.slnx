@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="SafeBite.Api/SafeBite.Api.csproj" />
+  <Project Path="SafeBite.Client/SafeBite.Client.csproj" />
 </Solution>

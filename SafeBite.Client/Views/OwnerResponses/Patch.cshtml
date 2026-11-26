@@ -1,0 +1,9 @@
+@model PatchFieldForm
+@{
+    ViewData["Title"] = "Quick update";
+    var item = ViewData["Item"] as OwnerResponseDto;
+    ViewData["Fields"] = OwnerResponsesController.PatchableFields;
+}
+<h1 class="h3">Quick update: response #@Model.Id <small class="text-muted fs-6">PATCH /api/owner-responses/@Model.Id</small></h1>
+<p class="text-muted">By @item?.OwnerName</p>
+<partial name="_PatchForm" model="Model" view-data="ViewData" />

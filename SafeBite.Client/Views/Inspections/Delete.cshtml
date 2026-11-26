@@ -1,0 +1,9 @@
+@model InspectionDto
+@{ ViewData["Title"] = "Delete inspection"; }
+<h1 class="h3">Delete inspection #@Model.InspectionId? <small class="text-muted fs-6">DELETE /api/inspections/@Model.InspectionId</small></h1>
+<p>@Model.EstablishmentName, @Model.InspectionDate.ToString("MMMM d, yyyy"), <partial name="_StatusPill" model="Model.Status" /></p>
+<div class="alert alert-warning">This also deletes the owner responses to this inspection.</div>
+<form asp-action="Delete" asp-route-id="@Model.InspectionId" method="post">
+    <button type="submit" class="btn btn-danger">Send DELETE</button>
+    <a asp-action="Details" asp-route-id="@Model.InspectionId" class="btn btn-link">Cancel</a>
+</form>

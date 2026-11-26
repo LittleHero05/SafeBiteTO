@@ -1,0 +1,59 @@
+@model List<BadgeDto>
+@{
+    ViewData["Title"] = "Restaurants near Centennial";
+    var page = (int)(ViewData["Page"] ?? 1);
+    var totalPages = (int)(ViewData["TotalPages"] ?? 1);
+}
+<div class="d-flex justify-content-between align-items-end mb-3">
+    <div>
+        <h1 class="h3 mb-0">Order from restaurants near Progress Campus</h1>
+        <p class="text-muted mb-0">A mock food delivery listing. Every card shows a SafeBite badge from <code>GET /api/establishments/{id}/badge</code>.</p>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-3">
+    @foreach (var b in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h2 class="h6 card-title mb-1">@b.Name</h2>
+                        <partial name="_StatusPill" model="b.CurrentStatus" />
+                    </div>
+                    <p class="small text-muted mb-2">@b.Address</p>
+                    <p class="small mb-1"><strong>Last inspected:</strong> @(b.LastInspected?.ToString("MMM d, yyyy") ?? "Not inspected")</p>
+                    @if (!string.IsNullOrEmpty(b.LatestInfraction) && b.LatestInfraction != "No infractions found")
+                    {
+                        <p class="small mb-1"><strong>Latest infraction:</strong> @b.LatestInfraction</p>
+                    }
+                    <p class="small mb-1">
+                        <span class="badge bg-danger-subtle text-danger-emphasis">Crucial @b.CrucialCount</span>
+                        <span class="badge bg-warning-subtle text-warning-emphasis">Significant @b.SignificantCount</span>
+                        <span class="badge bg-secondary-subtle text-secondary-emphasis">Minor @b.MinorCount</span>
+                    </p>
+                    @if (b.Last12Months.Any())
+                    {
+                        <p class="small mb-0"><strong>Last 12 months:</strong> @string.Join(" → ", b.Last12Months)</p>
+                    }
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between small">
+                    <span class="text-muted">Source: @b.Source</span>
+                    <a asp-controller="Establishments" asp-action="Details" asp-route-id="@b.EstablishmentId">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@if (totalPages > 1)
+{
+    <nav class="mt-4">
+        <ul class="pagination justify-content-center">
+            @for (var p = 1; p <= totalPages; p++)
+            {
+                <li class="page-item @(p == page ? "active" : "")"><a class="page-link" asp-action="Index" asp-route-page="@p">@p</a></li>
+            }
+        </ul>
+    </nav>
+}

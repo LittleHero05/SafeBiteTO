@@ -1,0 +1,11 @@
+@model OwnerResponseUpdateDto
+@{ ViewData["Title"] = "Edit owner response"; var id = ViewData["Id"]; }
+<h1 class="h3">Edit response #@id <small class="text-muted fs-6">PUT /api/owner-responses/@id</small></h1>
+<form asp-action="Edit" asp-route-id="@id" method="post" class="col-md-6">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3"><label asp-for="OwnerName" class="form-label"></label><input asp-for="OwnerName" class="form-control" /><span asp-validation-for="OwnerName" class="text-danger"></span></div>
+    <div class="mb-3"><label asp-for="Message" class="form-label"></label><textarea asp-for="Message" class="form-control" rows="4"></textarea><span asp-validation-for="Message" class="text-danger"></span></div>
+    <button type="submit" class="btn btn-secondary">Send PUT</button>
+    <a asp-action="Details" asp-route-id="@id" class="btn btn-link">Cancel</a>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

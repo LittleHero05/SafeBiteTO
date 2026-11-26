@@ -1,0 +1,8 @@
+@model OwnerResponseDto
+@{ ViewData["Title"] = "Delete owner response"; }
+<h1 class="h3">Delete response #@Model.OwnerResponseId? <small class="text-muted fs-6">DELETE /api/owner-responses/@Model.OwnerResponseId</small></h1>
+<blockquote class="border-start ps-3"><p>@Model.Message</p><footer class="small text-muted">@Model.OwnerName</footer></blockquote>
+<form asp-action="Delete" asp-route-id="@Model.OwnerResponseId" method="post">
+    <button type="submit" class="btn btn-danger">Send DELETE</button>
+    <a asp-action="Details" asp-route-id="@Model.OwnerResponseId" class="btn btn-link">Cancel</a>
+</form>
