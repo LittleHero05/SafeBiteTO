@@ -1,0 +1,22 @@
+@model InspectionUpdateDto
+@{ ViewData["Title"] = "Edit inspection"; var id = ViewData["Id"]; var statuses = new[] { "Pass", "Conditional Pass", "Closed" }; }
+<h1 class="h3">Edit inspection #@id <small class="text-muted fs-6">PUT /api/inspections/@id</small></h1>
+<p class="text-muted">@ViewData["EstablishmentName"] · PUT sends every field and replaces the whole record.</p>
+<form asp-action="Edit" asp-route-id="@id" method="post" class="col-md-8">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="row">
+        <div class="col mb-3"><label asp-for="InspectionDate" class="form-label"></label><input asp-for="InspectionDate" type="date" class="form-control" /><span asp-validation-for="InspectionDate" class="text-danger"></span></div>
+        <div class="col mb-3"><label asp-for="Status" class="form-label"></label><select asp-for="Status" class="form-select" asp-items="@(new SelectList(statuses))"></select></div>
+    </div>
+    <div class="row">
+        <div class="col mb-3"><label asp-for="InfractionCount" class="form-label"></label><input asp-for="InfractionCount" class="form-control" /></div>
+        <div class="col mb-3"><label asp-for="CrucialCount" class="form-label"></label><input asp-for="CrucialCount" class="form-control" /></div>
+        <div class="col mb-3"><label asp-for="SignificantCount" class="form-label"></label><input asp-for="SignificantCount" class="form-control" /></div>
+        <div class="col mb-3"><label asp-for="MinorCount" class="form-label"></label><input asp-for="MinorCount" class="form-control" /></div>
+    </div>
+    <div class="mb-3"><label asp-for="InfractionSummary" class="form-label"></label><input asp-for="InfractionSummary" class="form-control" /><span asp-validation-for="InfractionSummary" class="text-danger"></span></div>
+    <div class="mb-3"><label asp-for="Observation" class="form-label"></label><textarea asp-for="Observation" class="form-control" rows="2"></textarea></div>
+    <button type="submit" class="btn btn-secondary">Send PUT</button>
+    <a asp-action="Details" asp-route-id="@id" class="btn btn-link">Cancel</a>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

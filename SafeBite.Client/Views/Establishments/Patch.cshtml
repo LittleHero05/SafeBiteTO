@@ -1,0 +1,9 @@
+@model PatchFieldForm
+@{
+    ViewData["Title"] = "Quick update";
+    var item = ViewData["Item"] as EstablishmentDto;
+    ViewData["Fields"] = EstablishmentsController.PatchableFields;
+}
+<h1 class="h3">Quick update: @item?.Name <small class="text-muted fs-6">PATCH /api/establishments/@Model.Id</small></h1>
+<p class="text-muted">PATCH changes only the field you pick. Current phone: <strong>@(item?.Phone ?? "none")</strong></p>
+<partial name="_PatchForm" model="Model" view-data="ViewData" />

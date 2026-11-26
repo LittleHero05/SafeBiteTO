@@ -25,3 +25,8 @@ secrets.json
 # Python virtual environment
 .venv/
 __pycache__/
+
+# Reference copy of the client (not part of the project)
+SafeBite.Client-reference.zip
+setup-local.sh
+setup-local.log

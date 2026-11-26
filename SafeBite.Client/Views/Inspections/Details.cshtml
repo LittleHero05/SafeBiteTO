@@ -1,0 +1,30 @@
+@model InspectionDto
+@{
+    ViewData["Title"] = $"Inspection #{Model.InspectionId}";
+    var responses = ViewData["Responses"] as List<OwnerResponseDto> ?? new();
+}
+<h1 class="h3">Inspection #@Model.InspectionId <small class="text-muted fs-6">GET /api/inspections/@Model.InspectionId</small></h1>
+<dl class="row col-md-8">
+    <dt class="col-sm-4">Establishment</dt>
+    <dd class="col-sm-8"><a asp-controller="Establishments" asp-action="Details" asp-route-id="@Model.EstablishmentId">@Model.EstablishmentName</a> (#@Model.EstablishmentId)</dd>
+    <dt class="col-sm-4">Date</dt><dd class="col-sm-8">@Model.InspectionDate.ToString("MMMM d, yyyy")</dd>
+    <dt class="col-sm-4">Status</dt><dd class="col-sm-8"><partial name="_StatusPill" model="Model.Status" /></dd>
+    <dt class="col-sm-4">Infractions</dt><dd class="col-sm-8">@Model.InfractionCount (crucial @Model.CrucialCount, significant @Model.SignificantCount, minor @Model.MinorCount)</dd>
+    <dt class="col-sm-4">Summary</dt><dd class="col-sm-8">@Model.InfractionSummary</dd>
+    <dt class="col-sm-4">Observation</dt><dd class="col-sm-8">@Model.Observation</dd>
+</dl>
+<a asp-action="Edit" asp-route-id="@Model.InspectionId" class="btn btn-secondary">Edit (PUT)</a>
+<a asp-action="Patch" asp-route-id="@Model.InspectionId" class="btn btn-warning">Quick update (PATCH)</a>
+<a asp-action="Delete" asp-route-id="@Model.InspectionId" class="btn btn-outline-danger">Delete</a>
+
+<h2 class="h5 mt-4">Owner responses</h2>
+@if (!responses.Any()) { <p class="text-muted">No responses yet.</p> }
+@foreach (var r in responses)
+{
+    <blockquote class="border-start ps-3 mb-3">
+        <p class="mb-1">@r.Message</p>
+        <footer class="small text-muted">@r.OwnerName, @r.CreatedAt.ToString("MMM d, yyyy") · <a asp-controller="OwnerResponses" asp-action="Details" asp-route-id="@r.OwnerResponseId">open</a></footer>
+    </blockquote>
+}
+<a asp-controller="OwnerResponses" asp-action="Create" asp-route-inspectionId="@Model.InspectionId" class="btn btn-outline-primary btn-sm">Respond as the owner (POST)</a>
+<a asp-action="Index" class="d-block mt-4">← Back to list</a>

@@ -1,0 +1,9 @@
+@model PatchFieldForm
+@{
+    ViewData["Title"] = "Quick update";
+    var item = ViewData["Item"] as InspectionDto;
+    ViewData["Fields"] = InspectionsController.PatchableFields;
+}
+<h1 class="h3">Quick update: inspection #@Model.Id <small class="text-muted fs-6">PATCH /api/inspections/@Model.Id</small></h1>
+<p class="text-muted">@item?.EstablishmentName, @item?.InspectionDate.ToString("yyyy-MM-dd"). Current status: <strong>@item?.Status</strong></p>
+<partial name="_PatchForm" model="Model" view-data="ViewData" />

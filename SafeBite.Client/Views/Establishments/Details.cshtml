@@ -1,0 +1,40 @@
+@model EstablishmentDto
+@{
+    ViewData["Title"] = Model.Name;
+    var badge = ViewData["Badge"] as BadgeDto;
+}
+<h1 class="h3">@Model.Name <small class="text-muted fs-6">GET /api/establishments/@Model.EstablishmentId</small></h1>
+<div class="row g-4">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">ID</dt><dd class="col-sm-8">@Model.EstablishmentId</dd>
+            <dt class="col-sm-4">DineSafe ID</dt><dd class="col-sm-8">@Model.DineSafeId</dd>
+            <dt class="col-sm-4">Street</dt><dd class="col-sm-8">@Model.Street</dd>
+            <dt class="col-sm-4">Postal code</dt><dd class="col-sm-8">@Model.PostalCode</dd>
+            <dt class="col-sm-4">Phone</dt><dd class="col-sm-8">@Model.Phone</dd>
+            <dt class="col-sm-4">Coordinates</dt><dd class="col-sm-8">@Model.Latitude, @Model.Longitude</dd>
+        </dl>
+        <a asp-action="Edit" asp-route-id="@Model.EstablishmentId" class="btn btn-secondary">Edit (PUT)</a>
+        <a asp-action="Patch" asp-route-id="@Model.EstablishmentId" class="btn btn-warning">Quick update (PATCH)</a>
+        <a asp-action="Delete" asp-route-id="@Model.EstablishmentId" class="btn btn-outline-danger">Delete</a>
+    </div>
+    <div class="col-md-6">
+        @if (badge is not null)
+        {
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <span>SafeBite badge</span><partial name="_StatusPill" model="badge.CurrentStatus" />
+                </div>
+                <div class="card-body small">
+                    <p class="mb-1"><strong>Last inspected:</strong> @(badge.LastInspected?.ToString("MMM d, yyyy") ?? "Not inspected")</p>
+                    <p class="mb-1"><strong>Latest infraction:</strong> @(badge.LatestInfraction ?? "None")</p>
+                    <p class="mb-1"><strong>Crucial / significant / minor:</strong> @badge.CrucialCount / @badge.SignificantCount / @badge.MinorCount</p>
+                    <p class="mb-0"><strong>Last 12 months:</strong> @(badge.Last12Months.Any() ? string.Join(" → ", badge.Last12Months) : "No inspections")</p>
+                </div>
+                <div class="card-footer small text-muted">Source: @badge.Source</div>
+            </div>
+        }
+        <a asp-controller="Inspections" asp-action="Index" asp-route-establishmentId="@Model.EstablishmentId" class="btn btn-link px-0 mt-2">See all inspections for this establishment</a>
+    </div>
+</div>
+<a asp-action="Index" class="d-block mt-4">← Back to list</a>

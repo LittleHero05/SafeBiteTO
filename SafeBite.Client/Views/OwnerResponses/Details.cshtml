@@ -1,0 +1,19 @@
+@model OwnerResponseDto
+@{
+    ViewData["Title"] = $"Response #{Model.OwnerResponseId}";
+    var inspection = ViewData["Inspection"] as InspectionDto;
+}
+<h1 class="h3">Owner response #@Model.OwnerResponseId <small class="text-muted fs-6">GET /api/owner-responses/@Model.OwnerResponseId</small></h1>
+@if (inspection is not null)
+{
+    <p class="text-muted">About the <a asp-controller="Inspections" asp-action="Details" asp-route-id="@inspection.InspectionId">@inspection.InspectionDate.ToString("MMMM d, yyyy") inspection</a>
+        of @inspection.EstablishmentName (<partial name="_StatusPill" model="inspection.Status" />)</p>
+}
+<blockquote class="border-start border-3 ps-3 my-3 col-md-8">
+    <p class="mb-1">@Model.Message</p>
+    <footer class="small text-muted">@Model.OwnerName, @Model.CreatedAt.ToString("MMM d, yyyy")</footer>
+</blockquote>
+<a asp-action="Edit" asp-route-id="@Model.OwnerResponseId" class="btn btn-secondary">Edit (PUT)</a>
+<a asp-action="Patch" asp-route-id="@Model.OwnerResponseId" class="btn btn-warning">Quick update (PATCH)</a>
+<a asp-action="Delete" asp-route-id="@Model.OwnerResponseId" class="btn btn-outline-danger">Delete</a>
+<a asp-action="Index" class="d-block mt-4">← Back to list</a>
